@@ -59,12 +59,13 @@
     [self.goodArray setArray:[self sortArray:self.goodArray]];
     [self.middleArray setArray:[self sortArray:self.middleArray]];
     [self.badArray setArray:[self sortArray:self.badArray]];
+    
+    NSLog(@"This is change for git testing");
 
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 
